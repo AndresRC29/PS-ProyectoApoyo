@@ -1,11 +1,4 @@
 # HTML
-- task: AzureRmWebAppDeployment@4
-  inputs:
-    ConnectionType: 'AzureRM'
-    azureSubscription: 'Azure for Students (c4e060f3-61cc-4e48-8875-650fd2eb3ff3)'
-    appType: 'webApp'
-    WebAppName: 'papoyo'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
 # Archive your static HTML project and save it with the build record.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
